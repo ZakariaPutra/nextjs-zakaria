@@ -42,7 +42,7 @@ function Story() {
 
   return (
     
-      <div className="flex space-x-4 cursor-pointer text-center overflow-x-scroll max-w-full">
+      <div className="flex space-x-4 cursor-pointer text-center overflow-x-scroll max-w-full no-scrollbar">
         {profile.map((val) => (
           <div key={val.id} className="w-16">
             <div className="bg-gradient-to-tr h-16 w-16 from-yellow-400 to-fuchsia-600 p-1 rounded-full text-center">

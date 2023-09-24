@@ -23,7 +23,7 @@ function Sidenav() {
 ]
 
 return (
-<div className="flex flex-1 flex-col justify-between border-r-2 border-gray-600">
+<div className="flex flex-1 flex-col justify-between border-r-2 border-gray-600 w-60">
       <img
         className="w-32 m-6"
         src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"

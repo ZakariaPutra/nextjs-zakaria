@@ -16,18 +16,18 @@ function Post({ user, postImage, likes, timestamp}) {
                 </div>
                 <FiMoreHorizontal />
             </div>
-            <div className='w-full rounded-md border-slate-500'>
+            <div className='rounded-md border-slate-500 w-3/4 no-scrollbar'>
                 <img src={postImage} alt="width-full rounded-md border-slate-500" />
             </div>
-            <div className='text-white'>
-                <div className='flex items-center justify-between text-white'>
+            <div className='text-white no-scrollbar'>
+                <div className='flex items-center justify-between text-white w-3/4'>
                     <div className='flex'>
-                        <MdFavoriteBorder className=''/>
-                        <HiOutlineChatBubbleLeftEllipsis className=''/>
-                        <PiTelegramLogoLight className=''/>
+                        <MdFavoriteBorder className='cursor-pointer'/>
+                        <HiOutlineChatBubbleLeftEllipsis className='cursor-pointer'/>
+                        <PiTelegramLogoLight className='cursor-pointer'/>
                     </div>
                     <div className='flex'>
-                        <MdBookmarkBorder className=''/>
+                        <MdBookmarkBorder className='cursor-pointer'/>
                     </div>
                 </div>
                 <span className='text-white'>Liked by {likes} people.</span>
