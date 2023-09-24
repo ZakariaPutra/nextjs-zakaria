@@ -11,8 +11,10 @@ export default function Home(req, res, next) {
         <Sidenav />
       </div>
       <div className="flex flex-col w-full bg-black" style={{width: 738}}>
-        <Story />
-        <div className="flex flex-1 overflow-y-scroll bg-black" >
+        <div className="px-12" style={{}}>
+          <Story />
+        </div>
+        <div className="flex flex-1 overflow-y-scroll no-scrollbar px-3 bg-black" >
           <Timeline />
         </div>
       </div>

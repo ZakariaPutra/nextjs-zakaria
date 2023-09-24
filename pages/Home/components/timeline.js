@@ -34,9 +34,7 @@ function Feed() {
   ]);
 
   return (
-    <div className="timeline">
-      <div className="timeline__left">
-        <div className="timeline__posts">
+        <div className="">
           {posts.map((post) => (
             <Post
               user={post.user}
@@ -46,8 +44,7 @@ function Feed() {
             />
           ))}
         </div>
-      </div>
-    </div>
+        
   );
 }
 

@@ -16,7 +16,7 @@ function Post({ user, postImage, likes, timestamp}) {
                 </div>
                 <FiMoreHorizontal />
             </div>
-            <div className='rounded-md border-slate-500 w-3/4 no-scrollbar'>
+            <div className='rounded-md border-slate-500 w-4/5 no-scrollbar'>
                 <img src={postImage} alt="width-full rounded-md border-slate-500" />
             </div>
             <div className='text-white no-scrollbar'>
